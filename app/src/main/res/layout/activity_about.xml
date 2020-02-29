@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00BCD4"
+                android:gravity="center_horizontal"
+                android:text="About Us"
+                android:textSize="40sp"
+                app:fontFamily="@font/bubblegum_sans" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/googlelogo" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Code Next is a free, computer science education program that meets Black and Latinx high school students in their own communities and provides the skills and inspiration they need for long and rewarding careers in computer science-related fields.  "
+                android:textSize="20sp"
+                app:fontFamily="@font/bubblegum_sans" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="What do students get out of the program? "
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:fontFamily="@font/bubblegum_sans" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="So much! Participants engage in curriculum, learn from coaches, and drive their own projects–such as designing and programming a robot and 3D printing an Android chess set. After months of learning, students become creators of technology that they can share with their community. They also gain access to Google mentors, tech experts, and the latest in technologies, from laptops to virtual and augmented reality."
+                android:textSize="20sp"
+                app:fontFamily="@font/bubblegum_sans" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Is Code Next online or in-person? "
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:fontFamily="@font/bubblegum_sans" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Currently, Code Next is completely in-person. At the moment, we have three labs, located in 1) Oakland, California, 2) Chelsea, New York, and 3) Harlem, New York. The Oakland and Chelsea labs are run and managed by Google. The Harlem lab is based at the Boys and Girls Club of Harlem, run and managed in partnership with the New York Urban League and Emerging Leaders in Technology and Engineering (ELiTE). "
+                android:textSize="20sp"
+                app:fontFamily="@font/bubblegum_sans" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="In the future, we plan on releasing the Code Next curriculum online. Sign up here to get updates on that curriculum.  "
+                android:textSize="20sp"
+                app:fontFamily="@font/bubblegum_sans" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

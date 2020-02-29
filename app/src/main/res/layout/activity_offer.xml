@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OfferActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00BCD4"
+                android:gravity="center_horizontal"
+                android:text="Offers"
+                android:textSize="40sp"
+                app:fontFamily="@font/bubblegum_sans" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                app:srcCompat="@drawable/offers" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="What do we offer? "
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:fontFamily="@font/bubblegum_sans" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="  Community Workshops"
+                android:textColor="#E91E63"
+                android:textSize="35sp"
+                android:textStyle="bold"
+                app:fontFamily="@font/bubblegum_sans" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Making and design workshops for 9th graders. These introduce students to computational thinking and dispel misconceptions about CS."
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:fontFamily="@font/bubblegum_sans" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Foundations "
+                android:textColor="#E91E63"
+                android:textSize="35sp"
+                android:textStyle="bold"
+                app:fontFamily="@font/bubblegum_sans" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Our flagship, project-based CS exposure program for incoming 10th graders. This program includes two modules–CS and academic enrichment."
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:fontFamily="@font/bubblegum_sans" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Team Edge"
+                android:textColor="#E91E63"
+                android:textSize="35sp"
+                android:textStyle="bold"
+                app:fontFamily="@font/bubblegum_sans" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="A rigorous high school program for 10th and 11th graders that includes CS, academic enrichment, leadership development, and navigating the college application/college-going experience for students and their families. Each Team Edge student receives a Google mentor in their 10th grade year."
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:fontFamily="@font/bubblegum_sans" />
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Launch"
+                android:textColor="#E91E63"
+                android:textSize="35sp"
+                android:textStyle="bold"
+                app:fontFamily="@font/bubblegum_sans" />
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Launch is a program for 12th graders that builds on the foundations established in Team Edge. Launch combines immersive experiences with emphasis on entrepreneurship, product development, and preparation for a post-secondary pathway in tech."
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:fontFamily="@font/bubblegum_sans" />
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Clubs"
+                android:textColor="#E91E63"
+                android:textSize="35sp"
+                android:textStyle="bold"
+                app:fontFamily="@font/bubblegum_sans" />
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="These once-a-week meet-ups for 10th through 12th graders are perfect for students either in Team Edge or simply interested in STEM-related subjects. Clubs cover topics from tinkering to automation to virtual reality."
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:fontFamily="@font/bubblegum_sans" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
